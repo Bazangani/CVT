@@ -9,7 +9,7 @@ Selective Search is an object proposal algorithm that identifies potential regio
 This repository provides an implementation of the Selective Search algorithm in Python, based on the original paper: Uijlings, Jasper RR, et al. "Selective search for object recognition." International journal of computer vision 104 (2013): 154-171.
 The flowchart of the algorithm is as follows:
 
-  1. Over-segmentation:
+1. Over-segmentation:
    - The input image is divided into smaller segments based on colour, texture, or other features. This produces an initial set of regions that could potentially contain objects.
 
 2. Group Similar Regions:
