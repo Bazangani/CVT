@@ -12,7 +12,7 @@ The flowchart of the algorithm is as follows:
 1. Over-segmentation:
    - The input image is divided into smaller segments based on colour, texture, or other features. This produces an initial set of regions that could potentially contain objects. the output can be as follows:
 
-        ![Alt Text](https://mega.nz/file/0rtwEY5a#uHD6BNockzKzv13SX5NdnvjxfS24nyfS9GDxJqOgG84)
+        ![Alt Text]([https://mega.nz/file/0rtwEY5a#uHD6BNockzKzv13SX5NdnvjxfS24nyfS9GDxJqOgG84])
 
 2. Group Similar Regions:
    - Similar neighbouring segments are grouped together, creating more prominent regions. This step aims to capture more meaningful regions that are likely to represent objects.
