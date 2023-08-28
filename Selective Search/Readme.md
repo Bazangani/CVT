@@ -10,9 +10,7 @@ This repository provides an implementation of the Selective Search algorithm in 
 The flowchart of the algorithm is as follows:
 
 1. Over-segmentation:
-   - The input image is divided into smaller segments based on colour, texture, or other features. This produces an initial set of regions that could potentially contain objects. the output can be as follows:
-
-        ![Alt Text]([https://mega.nz/file/0rtwEY5a#uHD6BNockzKzv13SX5NdnvjxfS24nyfS9GDxJqOgG84])
+   - The input image is divided into smaller segments based on colour, texture, or other features. This produces an initial set of regions that could potentially 
 
 2. Group Similar Regions:
    - Similar neighbouring segments are grouped together, creating more prominent regions. This step aims to capture more meaningful regions that are likely to represent objects.
@@ -26,18 +24,16 @@ The flowchart of the algorithm is as follows:
 5. Generate Final Set of Proposals:
    - The hierarchy of region clusters is used to generate a final set of object proposals. These proposals have varying sizes and capture objects at different scales and positions in the image.
 
-## Features
+## Result
 
-- [List any key features or capabilities of your implementation]
-- [You can use bullet points to highlight essential features.]
+![Image Alt Text](./result.png)
+
 
 ## Usage
 
 [Provide instructions on how to use your implementation of Selective Search]
 
-1. [Step-by-step guide on installation and setup]
-2. [How to run the algorithm on sample images or datasets]
-3. [Explain any configuration options or parameters]
+
 
 
 
